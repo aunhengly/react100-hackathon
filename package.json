@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "start": "npm run build && node server",
     "server": "server",
     "client": "npm run start --prefix client",
