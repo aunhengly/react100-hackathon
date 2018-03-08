@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
-    "start": "npm run build && node server",
+    "build": "echo 'build command running'",
+    "start": "npm run dev",
     "server": "nodemon server",
     "client": "npm run start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
